@@ -1,0 +1,316 @@
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* General */
+.general-container {
+  width: 1140px;
+}
+
+/* header */
+#header a {
+  margin: 0px 8px;
+}
+
+/* navbar */
+
+.nav-element-a {
+  padding: 0px 15px;
+  color: #696969;
+  text-decoration: none;
+}
+.nav-element-a:hover {
+  color: #19459b;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: #696969;
+  font-size: 16px;
+  border: none;
+}
+.dropbtn a {
+  text-decoration: none;
+  color: #696969;
+}
+.dropbtn a:hover {
+  color: #19459b;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  font-size: 12px;
+  text-align: center;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #19459b;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #e3e1e1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.general {
+  margin: 0 auto;
+  width: 100%;
+  color: #696969;
+  margin-top: 25px;
+}
+
+.lich-su {
+  display: flex;
+}
+
+.lich-su1 {
+  width: 40%;
+  position: relative;
+  left: 10%;
+  padding: 10px 60px;
+  margin: auto 0;
+}
+
+.lich-su1 h3 {
+  font-weight: 900;
+  color: #19459d;
+  margin-bottom: 23px;
+}
+
+.lich-su p {
+  font-size: 13px;
+}
+
+.lich-su2 {
+  width: 40%;
+  position: relative;
+  padding: 10px;
+  left: 8%;
+}
+
+.lich-su2 img {
+  width: 500px;
+}
+
+.doi-tac {
+  text-align: center;
+}
+
+.doi-tac h2 {
+  font-weight: 900;
+  color: #19459b;
+}
+
+.doi-tac1 img {
+  width: 10%;
+  padding: 10px 13px;
+  margin: 0 80px;
+}
+
+.doi-tac1 {
+  display: inline;
+}
+
+.nang-luc {
+  background-color: #1a175f;
+  width: 100%;
+  display: flex;
+  color: #ffffff;
+}
+
+.nang-luc h3 {
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+.nang-luc p {
+  font-size: 15px;
+}
+
+.nang-luc1 img {
+  width: 500px;
+}
+
+.nang-luc1 {
+  width: 50%;
+  position: relative;
+  left: 10%;
+  padding: 70px;
+}
+
+.nang-luc2 {
+  width: 45%;
+  position: relative;
+  padding: 70px 90px;
+  right: 6%;
+}
+
+.so-luong {
+  display: flex;
+  color: #ffffff;
+  background-color: #5a92d3;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+.so-luong span {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.so-luong p {
+  font-weight: 600;
+}
+
+.so-luong1 {
+  width: 30%;
+  position: relative;
+  left: 12%;
+}
+
+.so-luong2 {
+  width: 30%;
+  position: relative;
+  left: 5%;
+}
+
+.so-luong3 {
+  width: 30%;
+  position: relative;
+  right: 2%;
+}
+
+.khach-hang {
+  display: flex;
+}
+
+.khach-hang h3 {
+  font-weight: 900;
+  margin-bottom: 13px;
+  color: #19459d;
+}
+
+.khach-hang p {
+  font-size: 12px;
+}
+
+.khach-hang img {
+  width: 500px;
+}
+
+.khach-hang1 {
+  width: 50%;
+  position: relative;
+  left: 5%;
+}
+
+.khach-hang2 {
+  width: 50%;
+  position: relative;
+  left: 6%;
+}
+
+.ceo {
+  background: #0390a1;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: 30px;
+}
+
+.general .fullname {
+  color: #666666;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.general .chuc-vu {
+  color: #19459d;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.general p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.giam-doc {
+  width: 25%;
+  position: relative;
+  left: 9%;
+  background: #dedddd;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.phan-mem {
+  width: 25%;
+  position: relative;
+  left: 12%;
+  background: #dedddd;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.pho-gd {
+  position: relative;
+  background: #dedddd;
+  width: 25%;
+  left: 15%;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.bao-mat {
+  background: #b6b6b6;
+  color: #ffffff;
+  display: flex;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.bao-mat button {
+  border: none;
+  background: #b6b6b6;
+  color: #ffffff;
+  position: relative;
+  left: 3%;
+  width: 10%;
+  top: 0;
+  font-weight: 600;
+}
+
+.bao-mat p {
+  width: 25%;
+  position: relative;
+  left: 10%;
+  top: 8px;
+}

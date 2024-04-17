@@ -1,0 +1,15 @@
+<div class="card">
+    <div class="image-container">
+        <img
+         src="https://ptmediaplus.com/wp-content/uploads/2021/11/tivi-led-asanzo-32-inch-32at130-1-300x300.jpeg"
+         alt=""
+        width="200"
+        height="140"/>
+    </div>
+    <div class="container">
+        <p class="product-name">TV LED 32 INCH</p>
+         <a href="https://ptmediaplus.com/san-pham/khung-treo-tivi-co-dinh/" class="list-product-a"
+                      >Đọc tiếp</a>
+    </div>
+
+</div>
